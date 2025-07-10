@@ -2,9 +2,9 @@ name: Spring Boot CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master" , "main" , "dev"]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master" , "main" , "dev"]
 jobs:
   build:
     runs-on: windows-latest
